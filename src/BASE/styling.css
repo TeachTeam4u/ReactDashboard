@@ -1,0 +1,53 @@
+.Offcanvas{
+    width: 100px;
+    background-color: blue;
+}
+
+.menu-bar{
+    width: 100%;
+    display: flex;
+    height: max-content;
+    padding: 1.25%;
+    background-color: #fff;
+    position: sticky;
+    box-shadow: #00000029 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.mg-2{
+    margin-left: 3%;
+}
+.nav-icon{
+    margin-right: 3%;
+}
+.mg-1{
+    margin-left: 2%;
+}
+
+.mg-3{
+    margin-left: 10%;
+}
+.menu-icon{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    position: fixed;
+    padding: 2%;
+    padding-right: 7%;
+    background-color: #282a39;
+    width: max-content;
+    height: 100%;
+    transition: width 2s;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+Nav.Link{
+    display: flex;
+}
+@media (max-width: 600px) {
+    .Offcanvas{
+        width: 50px;
+    }
+}
